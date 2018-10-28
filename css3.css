@@ -1,0 +1,13 @@
+body
+{
+    background-color: lightslategrey;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #ffffff;
+}
+
+section h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
