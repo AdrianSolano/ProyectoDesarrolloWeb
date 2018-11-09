@@ -1,0 +1,72 @@
+.item
+{
+    border:3px #000000 solid;
+}
+
+body
+{
+    background-color: lightgray;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+#principal{
+    grid-column: 1 / 13;
+}
+
+.heade{
+    background-color:green;
+    grid-column: 1 / 13;
+    grid-column-start: auto;
+    display: grid;
+}
+
+
+section h1, nav a
+{
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#logo
+{
+    height: 64px;
+    width: 64px;
+    position: relative;
+}
+
+
+#imagen_banner
+{
+    margin-top: 15px;
+    height: 250px;
+    width: 550px ;
+    border-radius: 5px;
+    /* background: url('http://leopardclub.ca/Spotlight/Spain/Leopard_2E/Lobitz/images/004.jpg') no-repeat; */
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+#descripcion_banner
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    font-size: 0.8em;
+    
+}
+#tweet
+{
+    width: 25px;
+    height: 25px;
+}
+
