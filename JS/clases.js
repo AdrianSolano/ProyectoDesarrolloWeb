@@ -103,6 +103,24 @@ class usuario{
         this.telefono=telefono;
         this.gustos=gustos;
     }
+    get nombre() {
+        return this._nombre;
+    }
+    get telefono() {
+        return this._telefono;
+    }
+    get gustos() {
+        return this._gustos;
+    }
+    set nombre(nombre) {
+        this._nombre=nombre;
+    }
+    set telefono(telefono) {
+        this._telefono=telefono;
+    }
+    set gustos(gustos) {
+        this._gustos=gustos;
+    }
 
 }
 
@@ -118,5 +136,6 @@ var home1 = new home(nombre,cuentas,carrosDeCombate);
 //Carros de combate
 var leopard1 = new carrosDeCombate("Leopard 1","Alemania",1965,"Tanque Medio(MBT)");
 var T55 = new carrosDeCombate("T-55","URSS",1955,"Tanque Medio");
+var M1_abrams = new carrosDeCombate("M1 Abrams","EEUU",1980,"CCP")
 
 //consoleLogs
