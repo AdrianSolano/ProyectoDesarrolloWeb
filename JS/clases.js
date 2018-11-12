@@ -135,7 +135,7 @@ var home1 = new home(nombre,cuentas,carrosDeCombate);
 
 //Carros de combate
 var leopard1 = new carrosDeCombate("Leopard 1","Alemania",1965,"Tanque Medio(MBT)");
-var T55 = new carrosDeCombate("T-55","URSS",1955,"Tanque Medio");
-var M1_abrams = new carrosDeCombate("M1 Abrams","EEUU",1980,"CCP")
+var t55 = new carrosDeCombate("T-55","URSS",1955,"Tanque Medio");
+var m1_abrams = new carrosDeCombate("M1 Abrams","EEUU",1980,"CCP")
 
 //consoleLogs
