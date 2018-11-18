@@ -135,7 +135,8 @@ article, aside
 
 article
 {
-    width: 625px;
+    height: 145%;
+    width: 145%;
     margin-right: 15px;
 
 }
@@ -157,14 +158,14 @@ aside
 }
 .flex5{
     display: flex;
-    width: 35%;
-    height: 35%;
+    width: 55%;
+    height: 55%;
     background-color: rgb(238, 237, 237);;
 }
 
 .flex5 .armor {
     background-color: #b0b3b7;
-    width: 100px;
+    width: 155px;
     height: 100px;
     margin: 10px;
 }
