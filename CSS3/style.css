@@ -99,7 +99,7 @@ section h1, nav a
     width: 45% ;
     border-radius: 5px;
     object-fit: contain;
-    /* background: url('http://leopardclub.ca/Spotlight/Spain/Leopard_2E/Lobitz/images/004.jpg') no-repeat; */
+    background: url('http://leopardclub.ca/Spotlight/Spain/Leopard_2E/Lobitz/images/004.jpg') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
@@ -130,8 +130,8 @@ article, aside
 
 article
 {
-    height: 145%;
-    width: 145%;
+    height: 115%;
+    width: 115%;
     margin-right: 15px;
 
 }
