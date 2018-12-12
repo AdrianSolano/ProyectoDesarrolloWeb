@@ -18,24 +18,16 @@ div{
     border: $bordes;
 }
 
-body
-{
-    background-color: rgb(237, 237, 237);
-    font-family: $fuente;
-    color: black;
-    display: grid;
+main,header,nav,main section,footer,nav div{
+    display:grid;
     grid-template-columns: repeat(12,1fr);
+    grid-column: 1/13;
+    color: #760001;
 }
 
-#principal{
-    grid-column: 1 / 13;
-    display: inline-block;
-    vertical-align: top;
-    text-align: justify;
-    position: relative;
-    width: 1000px;
-    margin: auto;
 
+main section div,main section h2,footer div,main section form,.area12{
+    grid-column: 1/13;
 }
 
 header h1
@@ -197,19 +189,11 @@ aside
 
 /* Foot */
 
-footer
-{
-    padding-top: 25px;
-}
-
-footer p, footer ul
-{
-    font-size: 0.8em;
-}
-
-footer h1
-{
-    font-size: 1.1em;
+footer div{
+    height:100px;
+    background-color: #b0b3b7;
+    text-align: center;
+    width:100%;
 }
 
 .tweet
@@ -218,4 +202,3 @@ footer h1
     height: 35px;
     box-shadow: $boxshadow;
 }
-

@@ -1,0 +1,22 @@
+{
+  "name": "proyectodesarrolloweb",
+  "version": "1.0.0",
+  "description": "Trabajo de un trabajo con trabajos relacianado a un trabajo \r con trabajos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianSolano/ProyectoDesarrolloWeb.git"
+  },
+  "author": "adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianSolano/ProyectoDesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/AdrianSolano/ProyectoDesarrolloWeb#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
+}
